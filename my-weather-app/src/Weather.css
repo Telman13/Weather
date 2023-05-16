@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(bg.jpg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.elements{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(30px);
+    border: 2px solid grey;
+    border-radius: 7px;
+    padding: 20px;
+}
+.input{
+    width: 280px;
+    margin: 30px;
+    padding: 10px 15px; 
+    border: 3px solid red;
+    outline: none;
+    background-color: pink;
+    border-radius: 0px 16px 0px 16px;
+    color: black;
+    font-size: 20px;
+    font-weight: 1000;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+}
+.name {
+    width: auto;
+    height: 50px;
+    color: white;
+}
+.temp{
+    color: #fff;
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-shadow: 5px 5px yellow; 
+    
+}
+.humid{
+    width: auto;
+    height: auto;   
+    margin-bottom: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px green; 
+}
+.condition{
+    width: auto;
+    height: auto;   
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px blue; 
+}
+.history{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 5px 5px black; 
+}
+.container.cloudy-bg {
+    background-image: url('cloud.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    backdrop-filter: blur(18px);
+  }
+  
+  .container.sunny-bg {
+    background-image: url('sunny.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+  .container.rainy-bg {
+    background-image: url('rain.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
